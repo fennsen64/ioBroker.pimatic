@@ -424,6 +424,7 @@ function syncVariables(variables, callback) {
                     name: variable.name,
                     read: true,
                     write: true,
+                    type: {},
                     role: 'pimatic-variable'
                 },
                 native: {
